@@ -1,0 +1,58 @@
+/*link */
+
+a:link{
+    color: tomato;
+    text-decoration: none;
+    background-color: red;
+}
+
+/*visit*/
+
+a:visited{
+    color: pink;
+    background-color: black;
+}
+
+/*active*/
+
+a:active{
+    background-color: seagreen;
+    color: blue;
+    padding: 0.3rem;
+    border-radius: 20%;
+}
+
+/* hover */
+
+a:hover{
+    border-bottom: 2px solid blue;
+}
+
+.caja{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+}
+
+.caja:hover{
+    border-radius: 100px;
+    box-shadow: 2px 2px black;
+}
+
+
+/* ejemplo uno */
+
+/* even (pares) - odd (impares) */
+
+.parrafos p:first-child{
+    background-color: tomato;
+}
+
+.parrafos :nth-child(even){
+    background-color: yellow;
+    font-size: 2rem;
+}
+
+.parrafos:nth-child(2):hover{
+    background-color: red;
+}
